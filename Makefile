@@ -35,7 +35,7 @@ define Package/luci-app-socatg/install
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/model/cbi
 	$(INSTALL_DIR) $(1)/usr/lib/lua/luci/controller
 	
-	$(INSTALL_CONF) ./files/root/etc/config/socatg $(1)/etc/config/socatg
+	$(INSTALL_CONF) ./files/root/etc/config/socatg.lua $(1)/etc/config/socatg
 	$(INSTALL_BIN) ./files/root/etc/init.d/socatg $(1)/etc/init.d/socatg
 	$(INSTALL_DATA) ./files/root/usr/lib/lua/luci/model/cbi/socatg.lua $(1)/usr/lib/lua/luci/model/cbi/socatg.lua
 	$(INSTALL_DATA) ./files/root/usr/lib/lua/luci/controller/socatg.lua $(1)/usr/lib/lua/luci/controller/socatg.lua
