@@ -12,3 +12,7 @@ Socat GUI,Socat可视化插件，支持所有架构，需要提前安装`socat`:
     opkg install /tmp/luci-app-socatg_1.1-1_all.ipk
     ```  
 ![OpenWrt 配置界面](./doc/openwrt)
+
+***  
+感谢  
+[Beginner-Go](https://github.com/Beginner-Go)
