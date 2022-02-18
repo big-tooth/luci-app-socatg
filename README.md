@@ -1,7 +1,7 @@
-# luci-app-socatg  
+# luci-app-socatg/ [中文文档](./README-Chinese.md)  
 
-**SocatG** (Socat GUI),about IPv6 port forwarding IPv4,SocatG supports all architectures(x86,Arm,MIPS),SocatG needs the support of `socat`  
-```Bash opkg install socat```
+**SocatG** (Socat GUI),about IPv6 port forwarding IPv4,SocatG supports all architectures(x86,Arm,MIPS),SocatG needs the support of `socat`👇  
+```opkg install socat```
 - Localtion：Network->SocatG  
 - How to use(reviewing)：[smzdm/什么值得买](https://post.smzdm.com/detail_preview/anxr0w00/)  
 - Install：  
